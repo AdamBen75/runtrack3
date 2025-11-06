@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jour 2 - Job 05</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Job 05 — Footer qui évolue avec le scroll</h1>
+    <p>Faites défiler la page et regardez le footer en bas changer de couleur et sa barre se remplir comme une barre de progression.</p>
+    <!-- Contenu pour permettre le scroll (body a aussi une min-height) -->
+    <section>
+      <p>Cette page contient suffisamment d'espace vertical pour permettre le scroll. Vous pouvez ajouter du contenu ici si besoin.</p>
+    </section>
+  </main>
+
+  <footer id="scroll-footer">
+    <div class="progress" id="footer-progress"></div>
+    <div class="label" id="footer-label">0%</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
